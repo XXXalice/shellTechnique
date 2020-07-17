@@ -7,5 +7,6 @@ unset SCRIPT_DIR
 readonly SCRIPT_DIR
 
 # スクリプト名
- echo $0
-
+echo $0
+# 1つめの引数
+echo $1
