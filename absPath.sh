@@ -5,3 +5,7 @@ echo ${SCRIPT_DIR}
 unset SCRIPT_DIR
 # readonlyで定数にできる
 readonly SCRIPT_DIR
+
+# スクリプト名
+ echo $0
+
