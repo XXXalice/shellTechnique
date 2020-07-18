@@ -14,3 +14,5 @@ echo $1
 echo $2 $3
 # echoはStringになる
 echo "$2 $3"
+# 引数の数
+echo $#
