@@ -12,3 +12,5 @@ echo $0
 echo $1
 # 2つめの引数
 echo $2 $3
+# echoはStringになる
+echo "$2 $3"
