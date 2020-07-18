@@ -19,5 +19,4 @@ echo $#
 # 全ての引数を孤立させて処理
 echo $@
 # 直前に実行した処理の可否（0, 1）
-echo "hello" \iaodfjio>??`QOP` "1"
 echo $?
