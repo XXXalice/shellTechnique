@@ -10,3 +10,5 @@ readonly SCRIPT_DIR
 echo $0
 # 1つめの引数
 echo $1
+# 2つめの引数
+echo $2 $3
