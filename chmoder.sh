@@ -4,8 +4,9 @@
 SCRIPT_DIR=$(cd $(dirname $0); pwd)
 readonly SCRIPT_DIR
 
-FILES=$(ls)
-FILES=(FILES)
+FILES=($(ls))
+# FILES=(FILES)
+echo ${FILES[@]}
 for FILE ${FILES[@]}; do
     echo FILE
 done
