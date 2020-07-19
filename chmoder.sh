@@ -7,6 +7,6 @@ readonly SCRIPT_DIR
 FILES=($(ls))
 # FILES=(FILES)
 echo ${FILES[@]}
-for FILE ${FILES[@]}; do
-    echo FILE
+for FILE in ${FILES[@]}; do
+    echo ${FILE}
 done
