@@ -8,5 +8,6 @@ FILES=($(ls))
 # FILES=(FILES)
 echo ${FILES[@]}
 for FILE in ${FILES[@]}; do
-    echo ${FILE}
+    echo ${FILE}に実行権限を付与します
+    chmod a+x ${FILE}
 done
