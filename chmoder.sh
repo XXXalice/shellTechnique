@@ -6,3 +6,6 @@ readonly SCRIPT_DIR
 
 FILES=$(ls)
 FILES=(FILES)
+for FILE ${FILES[@]}; do
+    echo FILE
+done
