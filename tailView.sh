@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 touch temp
 echo 'aaaa' > temp
