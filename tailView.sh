@@ -5,9 +5,8 @@ if [ ! -f ${FNAME} ]; then
     touch ${FNAME}
 fi
 
-
 for i in {0..3}; do
-    echo 'aaaa' >> temp
+    echo 'aaaa' >> ${FNAME}
 done
 
 cat temp
