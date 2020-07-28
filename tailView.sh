@@ -14,6 +14,8 @@ done
 
 clear 
 
+BOTTOM=`tail -n 1`
+
 timeout 0.5 
 
 if [ $? = 0 ]; then
