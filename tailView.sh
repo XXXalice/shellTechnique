@@ -14,9 +14,10 @@ done
 
 clear 
 
-BOTTOM=`tail -n 1`
-
-timeout 0.5 
+for i in {0..3}; do
+    BOTTOM=`tail -n ${i}`
+    timeout 0.5
+done
 
 if [ $? = 0 ]; then
     echo "正常に処理が終了しました"
