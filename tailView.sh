@@ -12,6 +12,9 @@ done
 # cat temp
 # rm ${FNAME}
 
+clear 
+
+timeout 0.5 
 
 if [ $? = 0 ]; then
     echo "正常に処理が終了しました"
