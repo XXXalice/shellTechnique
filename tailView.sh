@@ -9,8 +9,9 @@ for i in {0..3}; do
     echo 'aaaa' >> ${FNAME}
 done
 
-cat temp
-rm ${FNAME}
+# cat temp
+# rm ${FNAME}
+
 
 if [ $? = 0 ]; then
     echo "正常に処理が終了しました"
