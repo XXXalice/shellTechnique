@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
-URL=$1
+PARAM=$1
+URL="https://www.google.com/search?q=${PARAM}";
 open -a Google\ Chrome ${URL}
